@@ -1,0 +1,89 @@
+📌 제목: Can LLMs Assist Expert Elicitation for Probabilistic Causal Modeling?
+👨‍🔬 저자: Olha Shaposhnyk, Daria Zahorska, Svetlana Yanushkevich
+📅 날짜: 2025-04-14
+📄 초록:
+Objective: This study investigates the potential of Large Language Models
+(LLMs) as an alternative to human expert elicitation for extracting structured
+causal knowledge and facilitating causal modeling in biometric and healthcare
+applications.
+  Material and Methods: LLM-generated causal structures, specifically Bayesian
+networks (BNs), were benchmarked against traditional statistical methods (e.g.,
+Bayesian Information Criterion) using healthcare datasets. Validation
+techniques included structural equation modeling (SEM) to verifying
+relationships, and measures such as entropy, predictive accuracy, and
+robustness to compare network structures.
+  Results and Discussion: LLM-generated BNs demonstrated lower entropy than
+expert-elicited and statistically generated BNs, suggesting higher confidence
+and precision in predictions. However, limitations such as contextual
+constraints, hallucinated dependencies, and potential biases inherited from
+training data require further investigation.
+  Conclusion: LLMs represent a novel frontier in expert elicitation for
+probabilistic causal modeling, promising to improve transparency and reduce
+uncertainty in the decision-making using such models.
+🔗 링크: http://arxiv.org/pdf/2504.10397v1
+
+----------------------------------------
+
+📌 제목: InstructEngine: Instruction-driven Text-to-Image Alignment
+👨‍🔬 저자: Xingyu Lu, Yuhang Hu, YiFan Zhang, Kaiyu Jiang, Changyi Liu, Tianke Zhang, Jinpeng Wang, Bin Wen, Chun Yuan, Fan Yang, Tingting Gao, Di Zhang
+📅 날짜: 2025-04-14
+📄 초록:
+Reinforcement Learning from Human/AI Feedback (RLHF/RLAIF) has been
+extensively utilized for preference alignment of text-to-image models. Existing
+methods face certain limitations in terms of both data and algorithm. For
+training data, most approaches rely on manual annotated preference data, either
+by directly fine-tuning the generators or by training reward models to provide
+training signals. However, the high annotation cost makes them difficult to
+scale up, the reward model consumes extra computation and cannot guarantee
+accuracy. From an algorithmic perspective, most methods neglect the value of
+text and only take the image feedback as a comparative signal, which is
+inefficient and sparse. To alleviate these drawbacks, we propose the
+InstructEngine framework. Regarding annotation cost, we first construct a
+taxonomy for text-to-image generation, then develop an automated data
+construction pipeline based on it. Leveraging advanced large multimodal models
+and human-defined rules, we generate 25K text-image preference pairs. Finally,
+we introduce cross-validation alignment method, which refines data efficiency
+by organizing semantically analogous samples into mutually comparable pairs.
+Evaluations on DrawBench demonstrate that InstructEngine improves SD v1.5 and
+SDXL's performance by 10.53% and 5.30%, outperforming state-of-the-art
+baselines, with ablation study confirming the benefits of InstructEngine's all
+components. A win rate of over 50% in human reviews also proves that
+InstructEngine better aligns with human preferences.
+🔗 링크: http://arxiv.org/pdf/2504.10329v1
+
+----------------------------------------
+
+📌 제목: Zero-shot Autonomous Microscopy for Scalable and Intelligent Characterization of 2D Materials
+👨‍🔬 저자: Jingyun Yang, Ruoyan Avery Yin, Chi Jiang, Yuepeng Hu, Xiaokai Zhu, Xingjian Hu, Sutharsika Kumar, Xiao Wang, Xiaohua Zhai, Keran Rong, Yunyue Zhu, Tianyi Zhang, Zongyou Yin, Jing Kong, Neil Zhenqiang Gong, Zhichu Ren, Haozhe Wang
+📅 날짜: 2025-04-14
+📄 초록:
+Characterization of atomic-scale materials traditionally requires human
+experts with months to years of specialized training. Even for trained human
+operators, accurate and reliable characterization remains challenging when
+examining newly discovered materials such as two-dimensional (2D) structures.
+This bottleneck drives demand for fully autonomous experimentation systems
+capable of comprehending research objectives without requiring large training
+datasets. In this work, we present ATOMIC (Autonomous Technology for Optical
+Microscopy & Intelligent Characterization), an end-to-end framework that
+integrates foundation models to enable fully autonomous, zero-shot
+characterization of 2D materials. Our system integrates the vision foundation
+model (i.e., Segment Anything Model), large language models (i.e., ChatGPT),
+unsupervised clustering, and topological analysis to automate microscope
+control, sample scanning, image segmentation, and intelligent analysis through
+prompt engineering, eliminating the need for additional training. When
+analyzing typical MoS2 samples, our approach achieves 99.7% segmentation
+accuracy for single layer identification, which is equivalent to that of human
+experts. In addition, the integrated model is able to detect grain boundary
+slits that are challenging to identify with human eyes. Furthermore, the system
+retains robust accuracy despite variable conditions including defocus, color
+temperature fluctuations, and exposure variations. It is applicable to a broad
+spectrum of common 2D materials-including graphene, MoS2, WSe2, SnSe-regardless
+of whether they were fabricated via chemical vapor deposition or mechanical
+exfoliation. This work represents the implementation of foundation models to
+achieve autonomous analysis, establishing a scalable and data-efficient
+characterization paradigm that fundamentally transforms the approach to
+nanoscale materials research.
+🔗 링크: http://arxiv.org/pdf/2504.10281v1
+
+----------------------------------------
+

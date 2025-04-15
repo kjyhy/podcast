@@ -1,0 +1,23 @@
+📢 오늘 소개할 논문은 'WildLive: Near Real-time Visual Wildlife Tracking onboard UAVs'입니다. 🔗 논문 링크는 http://arxiv.org/pdf/2504.10165v1 이고요,
+
+Live tracking of wildlife via high-resolution video processing directly
+onboard drones is widely unexplored and most existing solutions rely on
+streaming video to ground stations to support navigation. Yet, both autonomous
+animal-reactive flight control beyond visual line of sight and/or
+mission-specific individual and behaviour recognition tasks rely to some degree
+on this capability. In response, we introduce WildLive -- a near real-time
+animal detection and tracking framework for high-resolution imagery running
+directly onboard uncrewed aerial vehicles (UAVs). The system performs
+multi-animal detection and tracking at 17fps+ for HD and 7fps+ on 4K video
+streams suitable for operation during higher altitude flights to minimise
+animal disturbance. Our system is optimised for Jetson Orin AGX onboard
+hardware. It integrates the efficiency of sparse optical flow tracking and
+mission-specific sampling with device-optimised and proven YOLO-driven object
+detection and segmentation techniques. Essentially, computational resource is
+focused onto spatio-temporal regions of high uncertainty to significantly
+improve UAV processing speeds without domain-specific loss of accuracy. Alongside, we introduce our WildLive dataset, which comprises 200k+ annotated
+animal instances across 19k+ frames from 4K UAV videos collected at the Ol
+Pejeta Conservancy in Kenya. All frames contain ground truth bounding boxes,
+segmentation masks, as well as individual tracklets and tracking point
+trajectories. We compare our system against current object tracking approaches
+including OC-SORT, ByteTrack, and SORT.

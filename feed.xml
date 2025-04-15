@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <channel>
-    <title>AI 논문 요약 팟캐스트</title>
-    <link>https://kjyhy.github.io/podcast/</link>
-    <language>ko-kr</language>
-    <description>최신 인공지능/머신러닝 논문을 요약하고 음성으로 전달합니다.</description>
-    <itunes:author>Jane Kang</itunes:author>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:summary>매주 업데이트되는 AI 논문 오디오 요약</itunes:summary>
-    <itunes:category text="Technology"/>
-    <itunes:image href="https://kjyhy.github.io/podcast/cover.jpg" />
-
-    <item>
-      <title>2025-04-21 논문 요약</title>
-      <description>이 논문은 organic materials 분야에서 딥러닝을 활용한 소재 설계 결과를 다루고 있습니다.</description>
-      <pubDate>Mon, 21 Apr 2025 07:30:00 +0900</pubDate>
-      <enclosure url="https://kjyhy.github.io/podcast/mp3/2025-04-21.mp3" type="audio/mpeg" />
-      <guid>2025-04-21</guid>
-    </item>
-  </channel>
-</rss>
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AI 논문 요약 팟캐스트</title><link>https://kjyhy.github.io/podcast/</link><description>최신 인공지능/머신러닝 논문을 요약하고 음성으로 전달합니다.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ko</language><lastBuildDate>Tue, 15 Apr 2025 14:13:17 +0000</lastBuildDate><itunes:author>Jane Kang</itunes:author><itunes:category text="Technology"/><itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:summary>매주 업데이트되는 AI 논문 오디오 요약</itunes:summary></channel></rss>

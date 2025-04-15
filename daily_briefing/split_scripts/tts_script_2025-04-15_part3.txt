@@ -1,0 +1,25 @@
+Integrated
+circuits (ICs) are the backbone of modern computing devices across industries,
+including artificial intelligence (AI), consumer electronics, healthcare,
+automotive, industrial, and aerospace. Moore Law has driven the semiconductor
+IC industry toward smaller dimensions, improved performance, and greater energy
+efficiency. However, as transistors shrink to atomic scales, aging-related
+degradation mechanisms such as Bias Temperature Instability (BTI), Hot Carrier
+Injection (HCI), Time-Dependent Dielectric Breakdown (TDDB), Electromigration
+(EM), and stochastic aging-induced variations have become major reliability
+threats. From an application perspective, applications like AI training and
+autonomous driving require continuous and sustainable operation to minimize
+recovery costs and enhance safety. Additionally, the high cost of chip
+replacement and reproduction underscores the need for extended lifespans. These
+factors highlight the urgency of designing more reliable ICs. This survey
+addresses the critical aging issues in ICs, focusing on fundamental degradation
+mechanisms and mitigation strategies. It provides a comprehensive overview of
+aging impact and the methods to counter it, starting with the root causes of
+aging and summarizing key monitoring techniques at both circuit and system
+levels. A detailed analysis of circuit-level mitigation strategies highlights
+the distinct aging characteristics of digital, analog, and SRAM circuits,
+emphasizing the need for tailored solutions. The survey also explores emerging
+software approaches in design automation, aging characterization, and
+mitigation, which are transforming traditional reliability optimization. Finally, it outlines the challenges and future directions for improving aging
+management and ensuring the long-term reliability of ICs across diverse
+applications. 이상으로 오늘의 논문 요약을 마칩니다. 감사합니다.

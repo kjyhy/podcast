@@ -1,0 +1,85 @@
+📄 Title: WildLive: Near Real-time Visual Wildlife Tracking onboard UAVs
+🔗 Link: http://arxiv.org/pdf/2504.10165v1
+
+🧠 Abstract:
+Live tracking of wildlife via high-resolution video processing directly
+onboard drones is widely unexplored and most existing solutions rely on
+streaming video to ground stations to support navigation. Yet, both autonomous
+animal-reactive flight control beyond visual line of sight and/or
+mission-specific individual and behaviour recognition tasks rely to some degree
+on this capability. In response, we introduce WildLive -- a near real-time
+animal detection and tracking framework for high-resolution imagery running
+directly onboard uncrewed aerial vehicles (UAVs). The system performs
+multi-animal detection and tracking at 17fps+ for HD and 7fps+ on 4K video
+streams suitable for operation during higher altitude flights to minimise
+animal disturbance. Our system is optimised for Jetson Orin AGX onboard
+hardware. It integrates the efficiency of sparse optical flow tracking and
+mission-specific sampling with device-optimised and proven YOLO-driven object
+detection and segmentation techniques. Essentially, computational resource is
+focused onto spatio-temporal regions of high uncertainty to significantly
+improve UAV processing speeds without domain-specific loss of accuracy.
+Alongside, we introduce our WildLive dataset, which comprises 200k+ annotated
+animal instances across 19k+ frames from 4K UAV videos collected at the Ol
+Pejeta Conservancy in Kenya. All frames contain ground truth bounding boxes,
+segmentation masks, as well as individual tracklets and tracking point
+trajectories. We compare our system against current object tracking approaches
+including OC-SORT, ByteTrack, and SORT. Our multi-animal tracking experiments
+with onboard hardware confirm that near real-time high-resolution wildlife
+tracking is possible on UAVs whilst maintaining high accuracy levels as needed
+for future navigational and mission-specific animal-centric operational
+autonomy.
+============================================================
+
+📄 Title: Amplifying solid-state high harmonic generations with momentum k-gaps in band structure engineering
+🔗 Link: http://arxiv.org/pdf/2503.21549v1
+
+🧠 Abstract:
+We propose a novel amplification mechanism for high harmonic generation (HHG)
+in solids by leveraging bandgap engineering with momentum k-gaps. By
+constructing a simple diatomic lattice featuring balanced, alternating gain and
+loss profiles, facilitated by an array of four-level systems, we explore the
+physics of k-gap-amplified Bloch oscillations in the intraband channel of
+solid-state HHG. Through numerical simulations, we elucidate the coexistence of
+amplification and harmonic radiation processes in a solid. Our finding reveals
+that advanced bandgap engineering can define k-space optical devices - such as
+Brillouin cavity, Bloch-Zener oscillator and k-gap amplifier - thereby enabling
+the coherent manipulation of semiconductor radiation and high harmonic
+generation in both semiconductor superlattices and artificial materials.
+Furthermore, we analyze the spectrogram and material realizations required for
+amplifying solid-state HHG. These results underscore the potential of k-gap
+band structure engineering to advance coherent light sources at extremely short
+wavelengths.
+============================================================
+
+📄 Title: Extending Silicon Lifetime: A Review of Design Techniques for Reliable Integrated Circuits
+🔗 Link: http://arxiv.org/pdf/2503.21165v1
+
+🧠 Abstract:
+Reliability has become an increasing concern in modern computing. Integrated
+circuits (ICs) are the backbone of modern computing devices across industries,
+including artificial intelligence (AI), consumer electronics, healthcare,
+automotive, industrial, and aerospace. Moore Law has driven the semiconductor
+IC industry toward smaller dimensions, improved performance, and greater energy
+efficiency. However, as transistors shrink to atomic scales, aging-related
+degradation mechanisms such as Bias Temperature Instability (BTI), Hot Carrier
+Injection (HCI), Time-Dependent Dielectric Breakdown (TDDB), Electromigration
+(EM), and stochastic aging-induced variations have become major reliability
+threats. From an application perspective, applications like AI training and
+autonomous driving require continuous and sustainable operation to minimize
+recovery costs and enhance safety. Additionally, the high cost of chip
+replacement and reproduction underscores the need for extended lifespans. These
+factors highlight the urgency of designing more reliable ICs. This survey
+addresses the critical aging issues in ICs, focusing on fundamental degradation
+mechanisms and mitigation strategies. It provides a comprehensive overview of
+aging impact and the methods to counter it, starting with the root causes of
+aging and summarizing key monitoring techniques at both circuit and system
+levels. A detailed analysis of circuit-level mitigation strategies highlights
+the distinct aging characteristics of digital, analog, and SRAM circuits,
+emphasizing the need for tailored solutions. The survey also explores emerging
+software approaches in design automation, aging characterization, and
+mitigation, which are transforming traditional reliability optimization.
+Finally, it outlines the challenges and future directions for improving aging
+management and ensuring the long-term reliability of ICs across diverse
+applications.
+============================================================
+
