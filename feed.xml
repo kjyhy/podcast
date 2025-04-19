@@ -1,2 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AI 논문 요약 팟캐스트</title><link>https://kjyhy.github.io/podcast/</link><description>최신 인공지능/머신러닝 논문을 요약하고 음성으로 전달합니다.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ko</language><lastBuildDate>Tue, 15 Apr 2025 14:13:17 +0000</lastBuildDate><itunes:author>Jane Kang</itunes:author><itunes:category text="Technology"/><itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:summary>매주 업데이트되는 AI 논문 오디오 요약</itunes:summary></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     version="2.0">
+
+  <channel>
+    <title>AI 논문 요약 팟캐스트</title>
+    <link>https://kjyhy.github.io/podcast/</link>
+    <description>최신 인공지능/머신러닝 논문을 요약하고 음성으로 전달합니다.</description>
+    <language>ko</language>
+    <lastBuildDate>Fri, 26 Apr 2025 07:00:00 +0000</lastBuildDate>
+    <itunes:author>Jane Kang</itunes:author>
+    <itunes:summary>매일 업데이트되는 AI 논문 오디오 요약</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/>
+    <atom:link href="https://kjyhy.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>2025-04-25 논문 요약</title>
+      <description>랜덤 포레스트와 그래디언트 부스팅을 활용한 AI 기반 유기 반도체 설계 논문 요약입니다.</description>
+      <enclosure url="https://kjyhy.github.io/podcast/mp3/2025-04-25.mp3"
+                 length="7812345"
+                 type="audio/mpeg"/>
+      <guid>2025-04-25</guid>
+      <pubDate>Fri, 25 Apr 2025 07:00:00 +0000</pubDate>
+    </item>
+
+  </channel>
+</rss>
