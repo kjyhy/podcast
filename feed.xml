@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AI 논문 요약 팟캐스트</title><link>https://kjyhy.github.io/podcast/</link><description>최신 인공지능 논문을 요약하고 음성으로 제공합니다.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ko</language><lastBuildDate>Sat, 19 Apr 2025 12:47:19 +0000</lastBuildDate><itunes:author>Jane Kang</itunes:author><itunes:category text="Technology"/><itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:summary>매일 업데이트되는 AI 논문 오디오 요약</itunes:summary><item><title>2025-04-15 논문 요약</title><description>📢 오늘 소개할 논문은 'WildLive: Near Real-time Visual Wildlife Tracking onboard UAVs'입니다.
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AI 논문 요약 팟캐스트</title><link>https://kjyhy.github.io/podcast/feed.xml</link><description>최신 인공지능 논문을 요약하고 음성으로 제공합니다.</description><atom:link href="https://kjyhy.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ko</language><lastBuildDate>Sat, 19 Apr 2025 13:23:36 +0000</lastBuildDate><itunes:author>Jane Kang</itunes:author><itunes:category text="Technology"/><itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:summary>매일 업데이트되는 AI 논문 오디오 요약</itunes:summary><item><title>2025-04-15 논문 요약</title><link>https://kjyhy.github.io/podcast</link><description>📢 오늘 소개할 논문은 &amp;#x27;WildLive: Near Real-time Visual Wildlife Tracking onboard UAVs&amp;#x27;입니다.
 
 🔗 논문 링크는 http://arxiv.org/pdf/2504.10165v1 이고요,
 
@@ -33,7 +33,7 @@ autonomy.
 이상으로 오늘의 논문 요약을 마칩니다. 감사합니다.
 
 
-📢 오늘 소개할 논문은 'Amplifying solid-state high harmonic generations with momentum k-gaps in band structure engineering'입니다.
+📢 오늘 소개할 논문은 &amp;#x27;Amplifying solid-state high harmonic generations with momentum k-gaps in band structure engineering&amp;#x27;입니다.
 
 🔗 논문 링크는 http://arxiv.org/pdf/2503.21549v1 이고요,
 
@@ -56,7 +56,7 @@ wavelengths.
 이상으로 오늘의 논문 요약을 마칩니다. 감사합니다.
 
 
-📢 오늘 소개할 논문은 'Extending Silicon Lifetime: A Review of Design Techniques for Reliable Integrated Circuits'입니다.
+📢 오늘 소개할 논문은 &amp;#x27;Extending Silicon Lifetime: A Review of Design Techniques for Reliable Integrated Circuits&amp;#x27;입니다.
 
 🔗 논문 링크는 http://arxiv.org/pdf/2503.21165v1 이고요,
 
@@ -87,4 +87,7 @@ Finally, it outlines the challenges and future directions for improving aging
 management and ensuring the long-term reliability of ICs across diverse
 applications.
 
-이상으로 오늘의 논문 요약을 마칩니다. 감사합니다.</description><guid isPermaLink="false">2025-04-15</guid><enclosure url="https://www.dropbox.com/scl/fi/q7qpoq1jtyloj3j7vhg8z/2025-04-15.mp3?rlkey=5fsq7gk4x97tsgx8gs6g41fzi&st=j7zunba4&dl=0" length="7912824" type="audio/mpeg"/><pubDate>Tue, 15 Apr 2025 07:00:00 +0000</pubDate></item></channel></rss>
+이상으로 오늘의 논문 요약을 마칩니다. 감사합니다.
+
+
+</description><guid isPermaLink="false">2025-04-15</guid><enclosure url="https://kjyhy.github.io/podcast/mp3/2025-04-15.mp3" length="7912824" type="audio/mpeg"/><pubDate>Tue, 15 Apr 2025 07:00:00 +0000</pubDate></item></channel></rss>
