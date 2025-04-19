@@ -1,5 +1,75 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AI 논문 요약 팟캐스트</title><link>https://kjyhy.github.io/podcast/feed.xml</link><description>최신 인공지능 논문을 요약하고 음성으로 제공합니다.</description><atom:link href="https://kjyhy.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ko</language><lastBuildDate>Sat, 19 Apr 2025 13:29:36 +0000</lastBuildDate><itunes:author>Jane Kang</itunes:author><itunes:category text="Technology"/><itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:summary>매일 업데이트되는 AI 논문 오디오 요약</itunes:summary><item><title>2025-04-15 논문 요약</title><link>https://kjyhy.github.io/podcast</link><description>📢 오늘 소개할 논문은 &amp;#x27;WildLive: Near Real-time Visual Wildlife Tracking onboard UAVs&amp;#x27;입니다.
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AI 논문 요약 팟캐스트</title><link>https://kjyhy.github.io/podcast/feed.xml</link><description>최신 인공지능 논문을 요약하고 음성으로 제공합니다.</description><atom:link href="https://kjyhy.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ko</language><lastBuildDate>Sat, 19 Apr 2025 13:54:31 +0000</lastBuildDate><itunes:author>Jane Kang</itunes:author><itunes:category text="Technology"/><itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:summary>매일 업데이트되는 AI 논문 오디오 요약</itunes:summary><item><title>2025-04-19 논문 요약</title><link>https://kjyhy.github.io/podcast</link><description>📄 논문 1: Machine Learning Approaches for Determining Molecular Packing of Organic Semiconductors
+🧪 실험 재료 및 과정
+이 연구는 유기 반도체(Organic Semiconductors, OSCs)의 분자 구조로부터 헤링본(Herringbone, HB) 형태의 2차원 분자 패킹 구조 형성 여부를 예측하는 머신러닝 모델을 개발하였습니다. HB 패킹은 고성능 p형 유기 반도체에서 전하 이동성을 향상시키는 중요한 구조입니다.​
+
+입력 데이터: 다양한 유기 반도체 분자의 화학 구조 정보
+
+목표: 각 분자가 HB 패킹 구조를 형성할 가능성 예측
+
+방법론: 분자의 구조적 특성을 기반으로 한 머신러닝 모델 학습​
+
+🤖 사용된 AI 모델 설명: Random Forest
+**랜덤 포레스트(Random Forest)**는 앙상블 학습(Ensemble Learning) 방식의 대표적인 머신러닝 기법으로, 여러 개의 **의사결정 나무(Decision Tree)**를 학습시키고 그 결과를 다수결로 결정합니다.
+
+구성: 여러 개의 결정 트리를 생성하여 앙상블을 구성
+
+학습 방식: 각 트리는 훈련 데이터의 무작위 샘플(부트스트랩 샘플)을 사용하며, 분기 기준(feature)도 무작위로 선택됩니다.
+
+예측 방식: 각 트리의 예측 결과를 집계하여 최종 예측을 도출합니다.
+
+장점: 과적합(overfitting)을 방지하고, 일반화 성능을 높이는 효과가 있습니다.​
+
+적용 방식 (논문에서):
+
+입력: 분자의 구조적 특성(예: 분자량, 결합 구조 등)
+
+출력: HB 패킹 구조 형성 여부 (이진 분류)
+
+모델 평가: 모델의 예측 정확도 및 중요 특성(feature importance) 분석​
+
+📊 결과 및 효과 분석
+예측 정확도: 모델은 높은 정확도로 HB 패킹 구조의 형성 여부를 예측하였습니다.
+
+실험 검증: 예측된 결과는 실험적 데이터를 통해 검증되었습니다.
+
+의의: 이 연구는 머신러닝을 활용하여 유기 반도체의 분자 패킹 구조를 예측할 수 있음을 보여주며, 새로운 유기 반도체 물질의 설계 및 개발을 가속화할 수 있는 가능성을 제시합니다.​
+
+📄 논문 2: Discovery of Crystallizable Organic Semiconductors with Machine Learning
+🧪 실험 재료 및 과정
+이 연구는 머신러닝을 활용하여 결정화 가능한 유기 반도체(COS)를 예측하고 식별하는 방법을 제시합니다. 특히, 판상 형태로 결정화되어 전하 이동성이 향상되는 물질을 찾는 데 중점을 두었습니다.​
+
+입력 데이터: 다양한 유기 분자의 열역학적 특성
+
+목표: 각 분자의 결정화 가능성 예측
+
+방법론: 분자의 구조적 특성과 열역학적 데이터를 기반으로 한 머신러닝 모델 학습​
+
+🤖 사용된 AI 모델 설명: Gradient Boosting Decision Trees (GBDT)
+GBDT는 앙상블 학습 기법 중 하나로, 여러 개의 약한 학습기(보통 결정 트리)를 순차적으로 학습시켜 강한 예측 모델을 만드는 방법입니다.
+
+구성: 각 단계에서 이전 모델의 오차를 보완하는 새로운 트리를 추가합니다.
+
+학습 방식: 손실 함수를 최소화하는 방향으로 트리를 추가하여 모델을 개선합니다.
+
+예측 방식: 모든 트리의 예측 값을 합산하여 최종 예측을 도출합니다.
+
+장점: 높은 예측 정확도와 과적합 방지 능력을 갖추고 있습니다.​
+
+적용 방식 (논문에서):
+
+입력: 분자의 구조적 특성과 열역학적 특성(예: 융점, 결정화 구동력 등)
+
+출력: 결정화 가능성 (이진 분류)
+
+모델 평가: 모델의 예측 정확도 및 중요 특성 분석​
+
+📊 결과 및 효과 분석
+예측 정확도: 모델은 89%의 정확도로 결정화 가능한 물질을 예측하였습니다.
+
+실험 검증: 예측된 후보 물질 중 3종을 실제로 합성하여 판상 결정 형태를 확인하였습니다.
+
+의의: 이 접근 방식은 유기 반도체 물질의 개발을 가속화할 수 있는 잠재력을 보여줍니다.</description><guid isPermaLink="false">2025-04-19</guid><enclosure url="https://kjyhy.github.io/podcast/mp3/2025-04-19.mp3" length="3469944" type="audio/mpeg"/><pubDate>Sat, 19 Apr 2025 07:00:00 +0000</pubDate></item><item><title>2025-04-15 논문 요약</title><link>https://kjyhy.github.io/podcast</link><description>📢 오늘 소개할 논문은 &amp;#x27;WildLive: Near Real-time Visual Wildlife Tracking onboard UAVs&amp;#x27;입니다.
 
 🔗 논문 링크는 http://arxiv.org/pdf/2504.10165v1 이고요,
 
