@@ -1,30 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:atom="http://www.w3.org/2005/Atom"
-     version="2.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AI 논문 요약 팟캐스트</title><link>https://kjyhy.github.io/podcast/</link><description>최신 인공지능 논문을 요약하고 음성으로 제공합니다.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ko</language><lastBuildDate>Sat, 19 Apr 2025 12:47:19 +0000</lastBuildDate><itunes:author>Jane Kang</itunes:author><itunes:category text="Technology"/><itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/><itunes:explicit>no</itunes:explicit><itunes:summary>매일 업데이트되는 AI 논문 오디오 요약</itunes:summary><item><title>2025-04-15 논문 요약</title><description>📢 오늘 소개할 논문은 'WildLive: Near Real-time Visual Wildlife Tracking onboard UAVs'입니다.
 
-  <channel>
-    <title>AI 논문 요약 팟캐스트</title>
-    <link>https://kjyhy.github.io/podcast/</link>
-    <description>최신 인공지능/머신러닝 논문을 요약하고 음성으로 전달합니다.</description>
-    <language>ko</language>
-    <lastBuildDate>Fri, 26 Apr 2025 07:00:00 +0000</lastBuildDate>
-    <itunes:author>Jane Kang</itunes:author>
-    <itunes:summary>매일 업데이트되는 AI 논문 오디오 요약</itunes:summary>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:category text="Technology"/>
-    <itunes:image href="https://kjyhy.github.io/podcast/cover.jpg"/>
-    <atom:link href="https://kjyhy.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+🔗 논문 링크는 http://arxiv.org/pdf/2504.10165v1 이고요,
 
-    <item>
-      <title>2025-04-25 논문 요약</title>
-      <description>랜덤 포레스트와 그래디언트 부스팅을 활용한 AI 기반 유기 반도체 설계 논문 요약입니다.</description>
-      <enclosure url="https://kjyhy.github.io/podcast/mp3/2025-04-25.mp3"
-                 length="7812345"
-                 type="audio/mpeg"/>
-      <guid>2025-04-25</guid>
-      <pubDate>Fri, 25 Apr 2025 07:00:00 +0000</pubDate>
-    </item>
+Live tracking of wildlife via high-resolution video processing directly
+onboard drones is widely unexplored and most existing solutions rely on
+streaming video to ground stations to support navigation. Yet, both autonomous
+animal-reactive flight control beyond visual line of sight and/or
+mission-specific individual and behaviour recognition tasks rely to some degree
+on this capability. In response, we introduce WildLive -- a near real-time
+animal detection and tracking framework for high-resolution imagery running
+directly onboard uncrewed aerial vehicles (UAVs). The system performs
+multi-animal detection and tracking at 17fps+ for HD and 7fps+ on 4K video
+streams suitable for operation during higher altitude flights to minimise
+animal disturbance. Our system is optimised for Jetson Orin AGX onboard
+hardware. It integrates the efficiency of sparse optical flow tracking and
+mission-specific sampling with device-optimised and proven YOLO-driven object
+detection and segmentation techniques. Essentially, computational resource is
+focused onto spatio-temporal regions of high uncertainty to significantly
+improve UAV processing speeds without domain-specific loss of accuracy.
+Alongside, we introduce our WildLive dataset, which comprises 200k+ annotated
+animal instances across 19k+ frames from 4K UAV videos collected at the Ol
+Pejeta Conservancy in Kenya. All frames contain ground truth bounding boxes,
+segmentation masks, as well as individual tracklets and tracking point
+trajectories. We compare our system against current object tracking approaches
+including OC-SORT, ByteTrack, and SORT. Our multi-animal tracking experiments
+with onboard hardware confirm that near real-time high-resolution wildlife
+tracking is possible on UAVs whilst maintaining high accuracy levels as needed
+for future navigational and mission-specific animal-centric operational
+autonomy.
 
-  </channel>
-</rss>
+이상으로 오늘의 논문 요약을 마칩니다. 감사합니다.
+
+
+📢 오늘 소개할 논문은 'Amplifying solid-state high harmonic generations with momentum k-gaps in band structure engineering'입니다.
+
+🔗 논문 링크는 http://arxiv.org/pdf/2503.21549v1 이고요,
+
+We propose a novel amplification mechanism for high harmonic generation (HHG)
+in solids by leveraging bandgap engineering with momentum k-gaps. By
+constructing a simple diatomic lattice featuring balanced, alternating gain and
+loss profiles, facilitated by an array of four-level systems, we explore the
+physics of k-gap-amplified Bloch oscillations in the intraband channel of
+solid-state HHG. Through numerical simulations, we elucidate the coexistence of
+amplification and harmonic radiation processes in a solid. Our finding reveals
+that advanced bandgap engineering can define k-space optical devices - such as
+Brillouin cavity, Bloch-Zener oscillator and k-gap amplifier - thereby enabling
+the coherent manipulation of semiconductor radiation and high harmonic
+generation in both semiconductor superlattices and artificial materials.
+Furthermore, we analyze the spectrogram and material realizations required for
+amplifying solid-state HHG. These results underscore the potential of k-gap
+band structure engineering to advance coherent light sources at extremely short
+wavelengths.
+
+이상으로 오늘의 논문 요약을 마칩니다. 감사합니다.
+
+
+📢 오늘 소개할 논문은 'Extending Silicon Lifetime: A Review of Design Techniques for Reliable Integrated Circuits'입니다.
+
+🔗 논문 링크는 http://arxiv.org/pdf/2503.21165v1 이고요,
+
+Reliability has become an increasing concern in modern computing. Integrated
+circuits (ICs) are the backbone of modern computing devices across industries,
+including artificial intelligence (AI), consumer electronics, healthcare,
+automotive, industrial, and aerospace. Moore Law has driven the semiconductor
+IC industry toward smaller dimensions, improved performance, and greater energy
+efficiency. However, as transistors shrink to atomic scales, aging-related
+degradation mechanisms such as Bias Temperature Instability (BTI), Hot Carrier
+Injection (HCI), Time-Dependent Dielectric Breakdown (TDDB), Electromigration
+(EM), and stochastic aging-induced variations have become major reliability
+threats. From an application perspective, applications like AI training and
+autonomous driving require continuous and sustainable operation to minimize
+recovery costs and enhance safety. Additionally, the high cost of chip
+replacement and reproduction underscores the need for extended lifespans. These
+factors highlight the urgency of designing more reliable ICs. This survey
+addresses the critical aging issues in ICs, focusing on fundamental degradation
+mechanisms and mitigation strategies. It provides a comprehensive overview of
+aging impact and the methods to counter it, starting with the root causes of
+aging and summarizing key monitoring techniques at both circuit and system
+levels. A detailed analysis of circuit-level mitigation strategies highlights
+the distinct aging characteristics of digital, analog, and SRAM circuits,
+emphasizing the need for tailored solutions. The survey also explores emerging
+software approaches in design automation, aging characterization, and
+mitigation, which are transforming traditional reliability optimization.
+Finally, it outlines the challenges and future directions for improving aging
+management and ensuring the long-term reliability of ICs across diverse
+applications.
+
+이상으로 오늘의 논문 요약을 마칩니다. 감사합니다.</description><guid isPermaLink="false">2025-04-15</guid><enclosure url="https://kjyhy.github.io/podcast/mp3/2025-04-15.mp3" length="7912824" type="audio/mpeg"/><pubDate>Tue, 15 Apr 2025 07:00:00 +0000</pubDate></item></channel></rss>
